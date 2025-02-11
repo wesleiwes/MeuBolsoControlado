@@ -1,0 +1,22 @@
+# Ignorar arquivos gerados pelo Visual Studio
+.vs/
+
+# Ignorar pastas de build
+bin/
+obj/
+
+# Ignorar arquivos temporários
+*.suo
+*.vsidx
+*.cache
+*.editorconfig
+*.log
+
+# Ignorar pastas de Debug e Release
+Debug/
+Release/
+
+# Ignorar outros arquivos do sistema
+*.user
+*.tmp
+*.ide
