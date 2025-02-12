@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBC.Infrastructure", "MBC.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBC.Application", "MBC.Application\MBC.Application.csproj", "{87540468-0636-47DC-9AEE-417FC8DBEC15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBC.API", "MBC.API\MBC.API.csproj", "{ACF3FDC2-CEC1-4406-BDB2-37699084179A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{87540468-0636-47DC-9AEE-417FC8DBEC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87540468-0636-47DC-9AEE-417FC8DBEC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87540468-0636-47DC-9AEE-417FC8DBEC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF3FDC2-CEC1-4406-BDB2-37699084179A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF3FDC2-CEC1-4406-BDB2-37699084179A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF3FDC2-CEC1-4406-BDB2-37699084179A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF3FDC2-CEC1-4406-BDB2-37699084179A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
