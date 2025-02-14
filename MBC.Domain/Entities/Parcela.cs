@@ -11,4 +11,3 @@ public class Parcela : IEntidade
     public int TransacaoId { get; set; }
     public Transacao Transacao { get; set; }
 }
-
