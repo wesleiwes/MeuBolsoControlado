@@ -1,5 +1,7 @@
-﻿namespace MBC.Domain.Entities;
-public class Parcela
+﻿using MBC.Domain.Entities.Base;
+
+namespace MBC.Domain.Entities;
+public class Parcela : IEntidade
 {
     public int Id { get; set; }
     public int Numero { get; set; }
