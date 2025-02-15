@@ -1,5 +1,7 @@
-﻿namespace MBC.Domain.Entities;
-public class Usuario
+﻿using MBC.Domain.Entities.Base;
+
+namespace MBC.Domain.Entities;
+public class Usuario : IEntidade
 {
     public int Id { get; set; }
     public string Nome { get; set; }
