@@ -1,42 +1,31 @@
 ﻿using MBC.Domain.Entities;
 using MBC.Domain.Entities.Base;
 using MBC.Domain.RepositoriesInterface;
+using MBC.Infrastructure.Mappers;
 
 namespace MBC.Infrastructure.Data.Repositories;
 public class ParcelaRepository : IParcelaRepository
 {
-    public void Adicionar(IEntidade entidade)
-    {
-        throw new NotImplementedException();
-    }
+    private readonly ParcelaMapper _parcelaMapper = new();
 
-    public void Atualizar(IEntidade entidade)
-    {
-        throw new NotImplementedException();
-    }
+    public void Adicione(Parcela parcela) => 
+        _parcelaMapper.Adicionar(parcela);    
 
-    public IEntidade BuscarPorId(int id)
-    {
-        throw new NotImplementedException();
-    }
+    public void Atualize(Parcela parcela) => 
+        _parcelaMapper.Atualizar(parcela);
 
-    public Parcela BuscarProximaParcelaNaoPaga(int transacaoId)
-    {
-        throw new NotImplementedException();
-    }
+    public Parcela BusquePorId(int id) =>
+        _parcelaMapper.BuscarPorId(id);
 
-    public decimal CalcularValorRestante(int transacaoId)
-    {
-        throw new NotImplementedException();
-    }
+    public Parcela BusqueProximaParcelaNaoPaga(int transacaoId) => 
+        _parcelaMapper.BuscarProximaParcelaNaoPaga(transacaoId);
 
-    public IEnumerable<Parcela> ListarPorTransacao(int transacaoId)
-    {
-        throw new NotImplementedException();
-    }
+    public decimal CalculeValorRestante(int transacaoId) =>
+        _parcelaMapper.CalcularValorRestante(transacaoId);
 
-    public void Remover(IEntidade entidade)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Parcela> ListePorTransacao(int transacaoId) =>
+        _parcelaMapper.ListarPorTransacao(transacaoId);
+
+    public void Remova(int id) =>
+        _parcelaMapper.Remover(id);
 }

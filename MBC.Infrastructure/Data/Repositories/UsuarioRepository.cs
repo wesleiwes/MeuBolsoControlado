@@ -5,32 +5,32 @@ using MBC.Domain.RepositoriesInterface;
 namespace MBC.Infrastructure.Data.Repositories;
 public class UsuarioRepository : IUsuarioRepository
 {
-    public void Adicionar(IEntidade entidade)
+    public void Adicione(IEntidade entidade)
     {
         throw new NotImplementedException();
     }
 
-    public void Atualizar(IEntidade entidade)
+    public void Atualize(IEntidade entidade)
     {
         throw new NotImplementedException();
     }
 
-    public Usuario BuscarPorEmail(string email)
+    public Usuario BusquePorEmail(string email)
     {
         throw new NotImplementedException();
     }
 
-    public IEntidade BuscarPorId(int id)
+    public IEntidade BusquePorId(int id)
     {
         throw new NotImplementedException();
     }
 
-    public void Remover(IEntidade entidade)
+    public void Remova(int id)
     {
         throw new NotImplementedException();
     }
 
-    public bool VerificarSeEmailExiste(string email)
+    public bool VerifiqueSeEmailExiste(string email)
     {
         throw new NotImplementedException();
     }
