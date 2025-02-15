@@ -12,4 +12,3 @@ public abstract class Transacao : IEntidade
     public int UsuarioId { get; set; }
     public Usuario Usuario { get; set; }
 }
-

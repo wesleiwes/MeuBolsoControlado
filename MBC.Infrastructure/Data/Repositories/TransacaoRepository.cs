@@ -6,42 +6,42 @@ using MBC.Domain.RepositoriesInterface;
 namespace MBC.Infrastructure.Data.Repositories;
 public class TransacaoRepository : ITransacaoRepository
 {
-    public void Adicionar(IEntidade entidade)
+    public void Adicione(IEntidade entidade)
     {
         throw new NotImplementedException();
     }
 
-    public void Atualizar(IEntidade entidade)
+    public void Atualize(IEntidade entidade)
     {
         throw new NotImplementedException();
     }
 
-    public IEntidade BuscarPorId(int id)
+    public IEntidade BusquePorId(int id)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Transacao> ListarPorCategoria(CategoriaTransacao categoria, int usuarioId)
+    public IEnumerable<Transacao> ListePorCategoria(CategoriaTransacao categoria, int usuarioId)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Transacao> ListarPorPeriodo(DateTime inicio, DateTime fim, int usuarioId)
+    public IEnumerable<Transacao> ListePorPeriodo(DateTime inicio, DateTime fim, int usuarioId)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Transacao> ListarPorUsuario(int usuarioId)
+    public IEnumerable<Transacao> ListePorUsuario(int usuarioId)
     {
         throw new NotImplementedException();
     }
 
-    public decimal ObterTotalPorPeriodo(DateTime inicio, DateTime fim, int usuarioId)
+    public decimal ObtenhaTotalPorPeriodo(DateTime inicio, DateTime fim, int usuarioId)
     {
         throw new NotImplementedException();
     }
 
-    public void Remover(IEntidade entidade)
+    public void Remova(int id)
     {
         throw new NotImplementedException();
     }
