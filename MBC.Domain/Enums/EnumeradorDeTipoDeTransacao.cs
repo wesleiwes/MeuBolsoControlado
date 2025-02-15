@@ -1,5 +1,5 @@
 ﻿namespace MBC.Domain.Enums;
-public enum TipoTransacao
+public enum EnumeradorDeTipoDeTransacao
 {
     Receita = 1,
     Despesa = 2

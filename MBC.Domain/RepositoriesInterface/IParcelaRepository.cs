@@ -2,7 +2,7 @@
 using MBC.Domain.Entities.Base;
 
 namespace MBC.Domain.RepositoriesInterface;
-public interface IParcelaRepository : IRepository<Parcela>
+public interface IParcelaRepository : IBaseRepository<Parcela>
 {
     IEnumerable<Parcela> ListePorTransacao(int transacaoId);
     Parcela BusqueProximaParcelaNaoPaga(int transacaoId);
