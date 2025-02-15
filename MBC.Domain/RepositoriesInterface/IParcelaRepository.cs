@@ -2,10 +2,10 @@
 using MBC.Domain.Entities.Base;
 
 namespace MBC.Domain.RepositoriesInterface;
-public interface IParcelaRepository : IRepository<IEntidade>
+public interface IParcelaRepository : IRepository<Parcela>
 {
-    IEnumerable<Parcela> ListarPorTransacao(int transacaoId);
-    Parcela BuscarProximaParcelaNaoPaga(int transacaoId);
-    decimal CalcularValorRestante(int transacaoId);
+    IEnumerable<Parcela> ListePorTransacao(int transacaoId);
+    Parcela BusqueProximaParcelaNaoPaga(int transacaoId);
+    decimal CalculeValorRestante(int transacaoId);
 
 }

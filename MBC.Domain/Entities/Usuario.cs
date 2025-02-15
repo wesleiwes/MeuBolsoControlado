@@ -10,4 +10,3 @@ public class Usuario : IEntidade
     public DateTime DataCadastro { get; set; }
     public List<Transacao> Transacoes { get; set; }
 }
-
